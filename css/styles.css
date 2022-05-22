@@ -1,0 +1,228 @@
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --active-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --background-color: #2f303a;
+}
+
+/* 
+    color: rgba(255, 255, 255, 0.6);   
+
+*/
+
+body {
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* header */
+.header {
+  background-color: var(--white-color);
+}
+/* logo */
+.header-logo,
+.footer-logo {
+  color: var(--black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.first-logo {
+  color: var(--active-color);
+}
+/* nav */
+.header-link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--active-color);
+}
+
+/* tel and mail */
+.header-mail,
+.header-tel {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--active-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--active-color);
+}
+
+/* main */
+/* hero */
+.hero {
+  background-color: var(--background-color);
+}
+
+h1 {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--active-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+/* что с етим делать не знаю */
+/* .button:hover {
+  background-color: var(--white-color);
+  color: var(--active-color);
+} */
+
+/* section */
+.section-studio-title,
+.section-portfolio-title,
+.section-workers-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-studio-subtitle {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-studio-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-workers-subtitle,
+.section-workers-text {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-workers-text {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-color);
+}
+.footer-logo {
+  color: var(--white-color);
+}
+.address {
+  font-style: normal;
+}
+.footer-addres,
+.footer-mail,
+.footer-tel {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-addres:hover,
+.footer-addres:focus {
+  color: var(--active-color);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--active-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--active-color);
+}
+
+/* portfolio */
+
+/* button */
+.portfolio-button {
+  color: var(--title-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* треба прибрати лінію навкруги кнопки */
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--active-color);
+}
+
+.portfolio-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
