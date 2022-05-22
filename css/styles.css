@@ -96,11 +96,11 @@ body {
   text-transform: uppercase;
 }
 
-.heto-button {
+.hero-button {
   color: var(--white-color);
   background-color: var(--active-color);
   font-family: inherit;
-  font-style: normal;
+  font-style: 400;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -110,11 +110,11 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-/* что с етим делать не знаю */
-/* .button:hover {
-  background-color: var(--white-color);
-  color: var(--active-color);
-} */
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--title-color);
+  background-color: #f5f4fa;
+}
 
 /* section */
 .section-studio-title,
@@ -144,16 +144,15 @@ body {
 
 .section-workers-subtitle,
 .section-workers-text {
-  color: var(--title-color);
-  font-weight: 500;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section-workers-text {
-  color: var(--text-color);
-  font-weight: 400;
+.section-workers-subtitle {
+  color: var(--title-color);
+  font-weight: 500;
 }
 
 /* footer */
@@ -194,21 +193,21 @@ body {
 }
 
 /* portfolio */
-
 /* button */
-.portfolio-button {
+.filter-button {
   color: var(--title-color);
   background-color: #f5f4fa;
   font-family: inherit;
-  font-style: normal;
+  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
-.portfolio-button:hover,
-.portfolio-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--white-color);
   background-color: var(--active-color);
 }
