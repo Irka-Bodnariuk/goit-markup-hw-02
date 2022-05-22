@@ -151,6 +151,9 @@ body {
 }
 
 /* -----------------------------WORKERS-------------------------- */
+.section-workers {
+  background-color: #f5f4fa;
+}
 .section-workers-subtitle,
 .section-workers-text {
   color: var(--text-color);
