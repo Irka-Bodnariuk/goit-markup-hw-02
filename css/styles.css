@@ -5,6 +5,9 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --background-color: #2f303a;
+  --button-hover-color: #188ce8;
+  --button-portfolio-color: #f5f4fa;
+  --rgba-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -129,7 +132,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   color: var(--white-color);
-  background-color: #188ce8;
+  background-color: var(--button-hover-color);
 }
 
 /* ------------------------------STUDIO--------------------------- */
@@ -176,7 +179,7 @@ body {
 
 .footer-mail,
 .footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--rgba-color);
 }
 .footer-address:hover,
 .footer-address:focus,
@@ -191,7 +194,7 @@ body {
 
 .filter-button {
   color: var(--title-color);
-  background-color: #f5f4fa;
+  background-color: var(--button-portfolio-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
