@@ -128,8 +128,8 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--title-color);
-  background-color: #f5f4fa;
+  color: var(--white-color);
+  background-color: #188ce8;
 }
 
 /* ------------------------------STUDIO--------------------------- */
