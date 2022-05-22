@@ -54,7 +54,9 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.studio,
+.portfolio {
   color: var(--active-color);
 }
 
@@ -84,7 +86,7 @@ body {
   background-color: var(--background-color);
 }
 
-h1 {
+.hero-title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -94,7 +96,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.button {
+.heto-button {
   color: var(--white-color);
   background-color: var(--active-color);
   font-family: inherit;
@@ -204,7 +206,6 @@ h1 {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  /* треба прибрати лінію навкруги кнопки */
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
